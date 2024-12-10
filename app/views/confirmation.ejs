@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Status</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <%- include('header') %>
+    <div class="order-details">
+      <div>Order: <%= data.order.orderID %></div>
+      <h4>Status: <%= errorMessage %></h4>
+      <div class="customer-info">
+        <h4>Customer information</h4>
+        <div>
+          Name: <%= data.order.billing.firstName %> <%=
+          data.order.billing.lasttName %>
+        </div>
+        <div>Phone: <%= data.order.billing.phone %></div>
+        <div>Email: <%= data.order.billing.email %></div>
+        <div>Address: <%= data.order.billing.details %></div>
+        <div>City: <%= data.order.billing.city %></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone XR Max",
+      "price": 899.99,
+      "image": "/img/smartphone-xr.jpg",
+      "shortDescription": "6.5-inch smartphone with high-definition display and dual camera.",
+      "description": "The Smartphone XR Max offers a stunning 6.5-inch display, dual 12MP rear cameras, and a powerful A14 processor for ultra-fast performance. Perfect for photography enthusiasts and multitaskers."
+    },
+    {
+      "id": 2,
+      "name": "4K Smart TV 55 inch",
+      "price": 649.99,
+      "image": "/img/smart-tv.jpg",
+      "shortDescription": "Ultra HD Smart TV with streaming and voice control.",
+      "description": "Enjoy breathtaking picture quality with the 4K Smart TV 55 inch. Equipped with HDR, Dolby Vision, and integrated streaming apps, it's perfect for home entertainment lovers."
+    },
+    {
+      "id": 3,
+      "name": "Wireless Noise Cancelling Headphones",
+      "price": 299.99,
+      "image": "/img/headphones.jpg",
+      "shortDescription": "Premium headphones with noise-cancellation and 30-hour battery life.",
+      "description": "Experience immersive sound with Wireless Noise Cancelling Headphones. Featuring advanced noise-canceling technology, a comfortable design, and long-lasting battery for up to 30 hours."
+    },
+    {
+      "id": 4,
+      "name": "Smart Home Speaker",
+      "price": 149.99,
+      "image": "/img/smart-speaker.jpg",
+      "shortDescription": "Voice-controlled smart speaker with excellent sound quality.",
+      "description": "The Smart Home Speaker delivers premium audio and easy voice control for your smart home devices. Compatible with popular smart home ecosystems and streaming services."
+    },
+    {
+      "id": 5,
+      "name": "Laptop Pro 15",
+      "price": 1199.99,
+      "image": "/img/laptop-pro-15.jpg",
+      "shortDescription": "High-performance laptop with 15-inch display and 16GB RAM.",
+      "description": "Laptop Pro 15 is designed for productivity with its powerful Intel i7 processor, 16GB RAM, and SSD storage. Ideal for professionals who need power and performance on the go."
+    },
+    {
+      "id": 6,
+      "name": "Smartwatch X Series",
+      "price": 249.99,
+      "image": "/img/smartwatch-x.jpg",
+      "shortDescription": "Water-resistant smartwatch with fitness tracking and notifications.",
+      "description": "Smartwatch X Series keeps you connected with message notifications, GPS, and health tracking features. A water-resistant, stylish watch for everyday convenience and activity monitoring."
+    },
+    {
+      "id": 7,
+      "name": "Wireless Gaming Mouse",
+      "price": 79.99,
+      "image": "/img/gaming-mouse.jpg",
+      "shortDescription": "Ergonomic gaming mouse with customizable buttons.",
+      "description": "The Wireless Gaming Mouse features a comfortable, ergonomic design and programmable buttons, allowing gamers to customize settings for enhanced gameplay. Long battery life included."
+    },
+    {
+      "id": 8,
+      "name": "Bluetooth Soundbar",
+      "price": 199.99,
+      "image": "/img/soundbar.jpg",
+      "shortDescription": "Bluetooth soundbar with surround sound for a cinematic experience.",
+      "description": "Upgrade your home theater with this Bluetooth Soundbar. It offers immersive surround sound, deep bass, and wireless connectivity, perfect for movies, music, and gaming."
+    },
+    {
+      "id": 9,
+      "name": "Portable Charger 20,000mAh",
+      "price": 49.99,
+      "image": "/img/portable-charger.jpg",
+      "shortDescription": "High-capacity power bank for fast, reliable charging.",
+      "description": "Keep your devices powered with the Portable Charger 20,000mAh. Provides multiple charges for smartphones, tablets, and more, with quick charge technology for on-the-go convenience."
+    }
+  ]  
+}

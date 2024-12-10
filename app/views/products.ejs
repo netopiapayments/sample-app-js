@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product List</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <%- include('header') %>
+    <div class="product-list">
+      <% products.forEach(product => { %>
+      <div
+        class="product"
+        onclick="window.location.href='/products/<%= product.id %>'"
+      >
+        <img
+          src="<%= product.image %>"
+          alt="<%= product.name %>"
+          class="product-image"
+        />
+        <h3><%= product.name %></h3>
+        <%= product.price %> RON
+      </div>
+      <% }); %>
+    </div>
+  </body>
+</html>
