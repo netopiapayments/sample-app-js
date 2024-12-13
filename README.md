@@ -10,7 +10,7 @@ This is a sample JS application demonstrating the integration with the NETOPIA P
 
 ## Requirements
 
-- Node.js version 20.11.1 or higher
+- Node.js version 18.0.0 or higher
 - [NETOPIA Payment Package](https://www.npmjs.com/package/netopia-payment2)
 - `.env` file for configuration
 
@@ -29,7 +29,7 @@ This is a sample JS application demonstrating the integration with the NETOPIA P
     npm install
    ```
 
-3. Create a `.env` file in the root directory
+3. Create a `.env` file in the root directory and fill in the required configuration data
 
    ```bash
     cp .env.sample .env
